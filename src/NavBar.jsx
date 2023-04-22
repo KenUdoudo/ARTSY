@@ -1,16 +1,7 @@
-
+import Cart from "./assets/Home/Vectorcart.png"
 
 const NavBar = () => {
 
-  const homePage = () =>{
-    Home.style.display = "block"
-    market.style.display = "none"
-  }
-  const marketPage = () =>{
-   Home.style.display = "none"
-   market.style.display = "block"
-  
-  }
 
 
   return (
@@ -19,11 +10,13 @@ const NavBar = () => {
         <h3>ARTSY</h3>
 
         <ul>
-          <li onClick={ homePage }><a href="#">Home</a></li>
-          <li onClick={ marketPage }><a href="#">Marketplace</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Marketplace</a></li>
           <li><a href="#">Auctions</a></li>
           <li><a href="#">Drop</a></li>
         </ul>
+
+        <img src={ Cart }/>
       </div>
       
     </div>
