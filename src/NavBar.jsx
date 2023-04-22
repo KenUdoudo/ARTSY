@@ -2,7 +2,16 @@
 
 const NavBar = () => {
 
- 
+  const homePage = () =>{
+    Home.style.display = "block"
+    market.style.display = "none"
+  }
+  const marketPage = () =>{
+   Home.style.display = "none"
+   market.style.display = "block"
+  
+  }
+
 
   return (
     <div className="NavBar">
