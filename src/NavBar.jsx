@@ -19,8 +19,8 @@ const NavBar = () => {
         <h3>ARTSY</h3>
 
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Marketplace</a></li>
+          <li onClick={ homePage }><a href="#">Home</a></li>
+          <li onClick={ marketPage }><a href="#">Marketplace</a></li>
           <li><a href="#">Auctions</a></li>
           <li><a href="#">Drop</a></li>
         </ul>
