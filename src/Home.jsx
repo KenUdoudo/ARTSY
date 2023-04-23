@@ -1,14 +1,15 @@
 import NavBar from "./NavBar";
-
+import section1 from "./Home/Section1";
 
 
 const Home = () => {
   return (
     <div className="Home">
-
+      
       <NavBar/>
       
-      <h2>Home</h2>
+      
+      
     
 
     </div>
