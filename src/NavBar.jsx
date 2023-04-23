@@ -1,5 +1,5 @@
 import Cart from "./assets/Home/Vectorcart.png"
-
+import Bell from "./assets/Home/Notification iconbell.png"
 const NavBar = () => {
 
 
@@ -17,6 +17,7 @@ const NavBar = () => {
         </ul>
 
         <img src={ Cart }/>
+        <img src= { Bell }/>
       </div>
       
     </div>
