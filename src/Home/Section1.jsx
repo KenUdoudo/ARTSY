@@ -1,4 +1,7 @@
-import CarouselOne from './src/assets/Home/Homepage carousel WEB.png'
+import CarouselOne from './assets/Homepage carousel WEB.png'
+import CarouselTwo from './assets/Homepage carousel WEB (1).png'
+import CarouselThree from './assets/Homepage carousel WEB (2).png'
+import CarouselFour from './assets/Homepage carousel WEB (3).png'
 
 const Section1home = () => {
   return (
@@ -10,6 +13,9 @@ const Section1home = () => {
 
       <div>
         <img src={ CarouselOne }/>
+        <img src={ CarouselTwo }/>
+        <img src={ CarouselThree }/>
+        <img src={ CarouselFour }/>
       </div>
     </div>
 
