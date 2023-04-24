@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import section1 from "./Home/Section1";
+import Section1home from "./Home/Section1";
 
 
 const Home = () => {
@@ -8,10 +8,8 @@ const Home = () => {
       
       <NavBar/>
       
+      <Section1home />
       
-      
-    
-
     </div>
   );
 }

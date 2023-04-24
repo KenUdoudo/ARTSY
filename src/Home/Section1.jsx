@@ -1,4 +1,4 @@
-const section1 = () => {
+const Section1home = () => {
   return (
 
     <div className="sec">
@@ -8,4 +8,4 @@ const section1 = () => {
   );
 }
  
-export default section1;
+export default Section1home;
