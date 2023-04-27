@@ -11,11 +11,11 @@ const Section1home = () => {
 
       <p>Flip through more than 10,000 vintage shots, old photographs, historic <br />images and captures seamlessly in one place. Register to get top access</p>
 
-      <div className='flex flex-row justify-between gap-x-2'>
-        <img src={ CarouselOne } className='object-scale-down'/>
-        <img src={ CarouselTwo } className='object-contain'/>
-        <img src={ CarouselThree } className='object-contain'/>
-        <img src={ CarouselFour } className='object-contain'/>
+      <div className='flex flex-row justify-between gap-x-2 w-full'>
+        <img src={ CarouselOne } className='w-4/5'/>
+        <img src={ CarouselTwo } className= 'w-4/5'/>
+        <img src={ CarouselThree } className='w-4/5'/>
+        <img src={ CarouselFour } className='w-4/5'/>
       </div>
     </div>
 
