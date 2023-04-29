@@ -7,9 +7,9 @@ const Section1home = () => {
   return (
 
     <div className="flex flex-col justify-center items-center gap-y-5 text-center">
-      <h2 className='text-6xl'>Photography is poetry & <br/>beatiful untold stories</h2>
+      <h2 className='text-6xl font-bold'>Photography is poetry & <br/>beatiful untold stories</h2>
 
-      <p>Flip through more than 10,000 vintage shots, old photographs, historic <br />images and captures seamlessly in one place. Register to get top access</p>
+      <p className='text-lg'>Flip through more than 10,000 vintage shots, old photographs, historic <br />images and captures seamlessly in one place. Register to get top access</p>
 
       <div className='flex flex-row justify-between gap-x-2 w-screen'>
         <img src={ CarouselOne } className='w-4/5'/>
