@@ -6,10 +6,10 @@ const NavBar = () => {
 
   return (
     <div className="NavBar">
-      <div className="flex flex-row justify-between px-11 mt-2.5">
+      <div className="flex flex-row justify-between px-20 mt-5">
         <h3>ARTSY</h3>
 
-        <ul className="flex flex-row justify-between">
+        <ul className="flex flex-row gap-x-5">
           <li><a href="#">Home</a></li>
           <li><a href="#">Marketplace</a></li>
           <li><a href="#">Auctions</a></li>
