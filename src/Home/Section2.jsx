@@ -1,7 +1,7 @@
 const Section2home = () => {
   return (
-    <div>
-      <h3 className="ml-20 mt-14">Featured products</h3>
+    <div className="mx-20">
+      <h3 className="mt-14 text-2xl text-gray-700">Featured products</h3>
     </div>
   );
 }
