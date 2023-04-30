@@ -8,13 +8,14 @@ const Section2home = () => {
 
       <div>
         <hr className="my-6"/>
-        <div>
+        <div className='flex flex-row gap-x-8'>
           <img src={ sec2img1 }/>
-          <div>
-            <h3>The Boolean Egytian</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
+          <div className='flex flex-col gap-y-6'>
+            <h3 className='text-xl font-bold'>The Boolean Egyptian</h3>
+            <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
             <div>
               <img src={ groupProfile }/>
+
             </div>
           </div>
         </div>
