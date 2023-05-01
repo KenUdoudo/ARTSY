@@ -1,4 +1,4 @@
-import sec2img1 from './assets/Rectangle 236.png'
+import sec2img1 from './assets/Featured product.png'
 import groupProfile from './assets/Group 526people.png'
 
 const Section2home = () => {
@@ -8,7 +8,7 @@ const Section2home = () => {
 
       <div>
         <hr className="my-6"/>
-        <div className='flex flex-row gap-x-8'>
+        <div className='flex flex-row gap-x-8 items-center'>
           <img src={ sec2img1 }/>
           <div className='flex flex-col gap-y-6'>
             <h3 className='text-xl font-bold'>The Boolean Egyptian</h3>
