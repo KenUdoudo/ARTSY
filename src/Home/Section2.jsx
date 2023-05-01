@@ -1,6 +1,6 @@
 import sec2img1 from './assets/Featured product.png'
 import groupProfile from './assets/Group 526people.png'
-
+import arrow from './assets/Group 503.png'
 const Section2home = () => {
   return (
     <div className="mx-20">
@@ -15,7 +15,7 @@ const Section2home = () => {
             <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
             <div>
               <img src={ groupProfile }/>
-
+              <img src={ arrow }/>
             </div>
           </div>
         </div>
