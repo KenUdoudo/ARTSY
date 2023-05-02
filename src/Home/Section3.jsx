@@ -11,7 +11,7 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  top-10">
+          <div className="absolute z-20 text-white  bottom-40">
             <div className="flex flex-row mx-6 items-center">
               <h2 className="text-6xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
@@ -27,7 +27,7 @@ const Section3home = () => {
           </div>
           <img src={ inside }/>
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-between items-center mt-2">
           <img src={ loaderOne } className="w-auto h-2/4"/>
           <img src={ arrow }/>
         </div>
