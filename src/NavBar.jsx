@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <div className="NavBar">
-      <div className="flex flex-row justify-between px-20 mt-5">
+      <div className="flex flex-row justify-between px-20 mt-5 items-center">
         <h3 className="text-2xl font-bold">ARTSY.</h3>
 
         <ul className="flex flex-row gap-x-5">
@@ -16,10 +16,10 @@ const NavBar = () => {
           <li><a href="#">Auctions</a></li>
           <li><a href="#">Drop</a></li>
         </ul>
-       <div>
+       <div className="flex flex-row gap-x-5 items-center">
         <img src={ search }/>
-        <img src={ Cart }/>
-        <img src= { Bell }/>
+        <a href="#"><img src={ Cart }/></a>
+        <a href="#"><img src= { Bell }/></a>
         </div>
       </div>
       

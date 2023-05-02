@@ -6,7 +6,7 @@ import CarouselFour from './assets/Homepage carousel WEB (3).png'
 const Section1home = () => {
   return (
 
-    <div className="flex flex-col justify-center items-center gap-y-5 text-center">
+    <div className="flex flex-col justify-center items-center gap-y-5 text-center mt-5">
       <h2 className='text-6xl font-bold'>Photography is poetry & <br/>beatiful untold stories</h2>
 
       <p className='text-lg'>Flip through more than 10,000 vintage shots, old photographs, historic <br />images and captures seamlessly in one place. Register to get top access.</p>
