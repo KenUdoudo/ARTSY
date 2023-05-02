@@ -9,9 +9,9 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  bottom-4">
+          <div className="absolute z-20 text-white  bottom-10">
             <div className="flex flex-row mx-6 items-center">
-              <h2>01</h2>
+              <h2 className="text-6xl">01</h2>
               <div>
                 <h3>MONALISA REDEFINDED <br />IN STYLE.</h3>
                 <p>STARTS ON 08:00 GTS. MONDAY</p>
