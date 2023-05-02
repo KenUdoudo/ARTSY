@@ -7,6 +7,9 @@ const Section3home = () => {
         <h3 className="mt-6 text-2xl text-white">See Upcoming Auctions and Exibitions</h3>
         <hr className="my-4 mx-2" />
         <div>
+          <div className="absolute z-20 text-white">
+            <p>testing z index</p>
+          </div>
           <img src={ inside }/>
         </div>
       </div>
