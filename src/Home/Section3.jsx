@@ -17,9 +17,9 @@ const Section3home = () => {
                 <p>STARTS ON 08:00 GTS. MONDAY</p>
                 <p className="text-lg">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
-              <div>
-                <a href="#"><p>See More</p></a>
-                <a href="#"><p>Set a Reminder</p></a>
+              <div className="flex flex-row gap-8 ml-20 mt-20 items-center">
+                <a href="#"><p className="underline">See More</p></a>
+                <a href="#"><p className="border px-3 py-2 rounded-md">Set a Reminder</p></a>
               </div>
             </div>
           </div>
