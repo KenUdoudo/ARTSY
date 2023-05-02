@@ -17,6 +17,10 @@ const Section3home = () => {
                 <p>STARTS ON 08:00 GTS. MONDAY</p>
                 <p>GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
+              <div>
+                <a href="#"><p>See More</p></a>
+                <a href="#"><p>Set a Reminder</p></a>
+              </div>
             </div>
           </div>
 
