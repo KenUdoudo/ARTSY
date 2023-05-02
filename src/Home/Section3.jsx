@@ -7,9 +7,20 @@ const Section3home = () => {
         <h3 className="mt-6 text-2xl text-white">See Upcoming Auctions and Exibitions</h3>
         <hr className="my-4 mx-2" />
         <div>
+
+
           <div className="absolute z-20 text-white">
-            <p>testing z index</p>
+            <div>
+              <h2>01</h2>
+              <div>
+                <h3>MONALISA REDEFINDED <br />IN STYLE.</h3>
+                <p>STARTS ON 08:00 GTS. MONDAY</p>
+                <p>GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
+              </div>
+            </div>
           </div>
+
+
           <img src={ inside }/>
         </div>
       </div>
