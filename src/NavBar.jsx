@@ -1,5 +1,6 @@
 import Cart from "./assets/Home/Vectorcart.png"
 import Bell from "./assets/Home/Notification iconbell.png"
+import search from './assets/Home/Search icon.png'
 const NavBar = () => {
 
 
@@ -16,6 +17,7 @@ const NavBar = () => {
           <li><a href="#">Drop</a></li>
         </ul>
        <div>
+        <img src={ search }/>
         <img src={ Cart }/>
         <img src= { Bell }/>
         </div>
