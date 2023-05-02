@@ -1,5 +1,7 @@
 import backdrop from "./assets/Rectangle 90web gradient.png"
 import inside from './assets/Rectangle 91inside gradient.png'
+import loaderOne from './assets/Loader.png'
+import arrow from './assets/Arrow.png'
 const Section3home = () => {
   return (
     <div className="static mt-40">
@@ -9,7 +11,7 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  bottom-10">
+          <div className="absolute z-20 text-white  top-10">
             <div className="flex flex-row mx-6 items-center">
               <h2 className="text-6xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
@@ -21,11 +23,13 @@ const Section3home = () => {
                 <a href="#"><p className="underline">See More</p></a>
                 <a href="#"><p className="border px-3 py-2 rounded-md">Set a Reminder</p></a>
               </div>
-            </div>
+            </div> 
           </div>
-
-
           <img src={ inside }/>
+        </div>
+        <div className="flex flex-row justify-between">
+          <img src={ loaderOne } className="w-auto h-2/4"/>
+          <img src={ arrow }/>
         </div>
       </div>
       <img src={ backdrop } className="w-full h-auto z-0"/>
