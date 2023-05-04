@@ -35,8 +35,9 @@ const Section3home = () => {
       </div>
       <img src={ backdrop } className="w-full h-auto z-0"/>
       <hr className="mt-20 mx-20" />
-      <div>
-        <h3 className="mx-20 mt-8 text-2xl">Explore Marketplace</h3>
+      <div className="flex flex-row justify-between items-center mx-20">
+        <h3 className=" mt-8 text-2xl">Explore Marketplace</h3>
+        <img src={ blueArrow }/>
       </div>
     </div>
   );
