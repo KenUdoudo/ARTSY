@@ -33,7 +33,10 @@ const Section3home = () => {
         </div>
       </div>
       <img src={ backdrop } className="w-full h-auto z-0"/>
-      
+      <hr className="mt-20 mx-20" />
+      <div>
+        <h3 className="mx-20 mt-8 text-2xl">Explore Marketplace</h3>
+      </div>
     </div>
   );
 }
