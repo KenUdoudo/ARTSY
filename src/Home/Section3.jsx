@@ -2,6 +2,7 @@ import backdrop from "./assets/Rectangle 90web gradient.png"
 import inside from './assets/Rectangle 91inside gradient.png'
 import loaderOne from './assets/Loader.png'
 import arrow from './assets/Arrow.png'
+import blueArrow from './assets/arrow 1.png'
 const Section3home = () => {
   return (
     <div className="static mt-40">
