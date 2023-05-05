@@ -4,7 +4,7 @@ const Section4home = () => {
     <div className="bg-gray-200 mt-20 ">
 
 
-      <div className='flex flex-row justify-between mx-20'>
+      <div className='flex flex-row justify-between mx-20 pt-10'>
         <h2 className='font-bold text-3xl'>TOP CREATORS OF <br />THE WEEK</h2>
         <div className='flex flex-row gap-x-3'>
           <img src={ loader2 } className='w-auto h-3/6'/>
@@ -18,7 +18,7 @@ const Section4home = () => {
           </div>
         </div>
       </div>
-      <p className='-mt-14 ml-20 mr-40'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos magni laudantium eius fugiat doloremque? Incidunt, non nam? Illum hic quisquam assumenda eaque. Animi praesentium illum, nihil et eveniet temporibus totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto dignissimos dolorum repudiandae qui vitae laboriosam voluptates cumque, nesciunt magnam vero alias, odio asperiores porro eum at maxime eligendi illum?</p>
+      <p className='-mt-14 ml-20 mr-40 pb-10'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos magni laudantium eius fugiat doloremque? <br />Incidunt, non nam? Illum hic quisquam assumenda eaque. Animi praesentium illum, nihil et eveniet temporibus totam. <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto dignissimos dolorum repudiandae qui vitae laboriosam voluptates cumque, nesciunt magnam vero alias, odio asperiores porro eum at maxime eligendi illum?</p>
 
 
     </div>
