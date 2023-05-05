@@ -6,6 +6,14 @@ const Section4home = () => {
         <h2>TOP CREATORS OF <br />THE WEEK</h2>
         <div>
           <img src={ loader2 }/>
+          <div>
+            <ul>
+              <a href="#"><li>Editorials</li></a>
+              <a href="#"><li>Fashion</li></a>
+              <a href="#"><li>Lifestyle</li></a>
+              <a href="#"><li>Blueprint</li></a>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
