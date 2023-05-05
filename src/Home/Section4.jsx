@@ -1,8 +1,10 @@
 import loader2 from './assets/Loader (1).png'
 const Section4home = () => {
   return (
-    <div className="bg-gray-200 mt-20">
-      <div>
+    <div className="bg-gray-200 mt-20 ">
+
+
+      <div className='flex flex-row justify-between mx-20'>
         <h2>TOP CREATORS OF <br />THE WEEK</h2>
         <div>
           <img src={ loader2 }/>
@@ -16,6 +18,9 @@ const Section4home = () => {
           </div>
         </div>
       </div>
+
+
+
     </div>
   );
 }
