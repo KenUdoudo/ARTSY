@@ -9,7 +9,7 @@ const Section4home = () => {
         <div className='flex flex-row gap-x-2'>
           <img src={ loader2 } className='w-auto h-2/5'/>
           <div>
-            <ul>
+            <ul className='flex flex-col gap-2'>
               <a href="#"><li>Editorials</li></a>
               <a href="#"><li>Fashion</li></a>
               <a href="#"><li>Lifestyle</li></a>
