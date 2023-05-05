@@ -6,8 +6,8 @@ const Section4home = () => {
 
       <div className='flex flex-row justify-between mx-20'>
         <h2>TOP CREATORS OF <br />THE WEEK</h2>
-        <div>
-          <img src={ loader2 }/>
+        <div className='flex flex-row gap-x-2'>
+          <img src={ loader2 } className='w-auto h-2/5'/>
           <div>
             <ul>
               <a href="#"><li>Editorials</li></a>
