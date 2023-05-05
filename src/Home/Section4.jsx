@@ -3,11 +3,11 @@ import girl from './assets/Top Creators Animationgirl.png'
 const Section4home = () => {
   return (
     <div className="static bg-gray-200 mt-20 ">
-      <div  className='flex flex-row absolute z-10'>
+      <div  className='flex flex-row absolute z-10 gap-x-2'>
         <img src={ girl }/>
         <div className='flex flex-col items-start'>
           <h1 className='font-bold text-4xl'>CIRCA</h1>
-          <h1 className='font-bold text-8xl'>1985</h1>
+          <h1 className='font-bold text-8xl line-through'>1985</h1>
         </div>
       </div>
 
