@@ -14,8 +14,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex flex-row justify-center items-center'>
-        <h2>ARTSY.</h2>
+      <div className='flex flex-row justify-around items-center mx-20'>
+        <h2 className="text-2xl font-bold">ARTSY.</h2>
         <div>
           <a href="#"><p>Home</p></a>
           <a href="#"><p>Marketplace</p></a>
