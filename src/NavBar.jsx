@@ -17,9 +17,9 @@ const NavBar = () => {
           <li><a href="#">Drop</a></li>
         </ul>
        <div className="flex flex-row gap-x-5 items-center">
-        <img src={ search }/>
-        <a href="#"><img src={ Cart }/></a>
-        <a href="#"><img src= { Bell }/></a>
+        <img src={ search } className="w-10 h-10"/>
+        <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
+        <a href="#"><img src= { Bell } className="w-9 h-10"/></a>
         </div>
       </div>
       
