@@ -12,6 +12,26 @@ const Footer = () => {
         </div>
       </div>
 
+      <div>
+        <h2>ARTSY.</h2>
+        <div>
+          <a href="#"><p>Home</p></a>
+          <a href="#"><p>Marketplace</p></a>
+          <a href="#"><p>Auctions</p></a>
+          <a href="#"><p>Drops</p></a>
+        </div>
+        <div>
+          <a href="#"><p>Blog</p></a>
+          <a href="#"><p>Wallets</p></a>
+          <a href="#"><p>Rates</p></a>
+          <a href="#"><p>High bids</p></a>
+        </div>
+        <div>
+          <div>
+            
+          </div>
+        </div>
+      </div>
 
 
     </div>
