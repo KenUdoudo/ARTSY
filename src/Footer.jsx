@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div>
+      <div className='flex flex-row justify-center items-center'>
         <h2>ARTSY.</h2>
         <div>
           <a href="#"><p>Home</p></a>
