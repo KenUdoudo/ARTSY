@@ -8,8 +8,8 @@ export default {
     extend: {},
     fontFamily: {
       stix: ['STIX Two Text', 'serif']
-      satoshi: ['Raleway', 'sans-serif']
-      clash: ['Bruno Ace SC', 'cursive']
+      rale: ['Raleway', 'sans-serif']
+      bruno: ['Bruno Ace SC', 'cursive']
     }
   },
   plugins: [],
