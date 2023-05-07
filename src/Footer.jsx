@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex flex-row justify-around items-center mx-20'>
+      <div className='flex flex-row justify-around items-center mx-20 mt-8'>
         <h2 className="text-2xl font-bold">ARTSY.</h2>
         <div className='flex flex-col gap-y-4 text-gray-700'>
           <a href="#"><p>Home</p></a>
@@ -28,12 +28,12 @@ const Footer = () => {
           <a href="#"><p>Rates</p></a>
           <a href="#"><p>High bids</p></a>
         </div>
-        <div>
-          <div>
+        <div className='flex flex-col gap-y-4'>
+          <div className='flex flex-row gap-x-2'>
             <img src={ mail }/>
             <p>artsystudios@gmail.com</p>
           </div>
-          <div>
+          <div className='flex flex-row gap-x-2'>
             <img src={ location }/>
             <p>Lagos, Nigeria</p>
           </div>
