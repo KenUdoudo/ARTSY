@@ -6,7 +6,7 @@ const Footer = () => {
         <p>Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
           <form>
-            <input type="email" placeholder="ENTER YOUR EMAIL"/>
+            <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 pr-16 py-1 text-sm"/>
             <button type="submit">SUBSCRIBE</button>
           </form>
         </div>
