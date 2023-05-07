@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
           <form>
             <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 pr-16 py-1 text-sm"/>
-            <button type="submit">SUBSCRIBE</button>
+            <button type="submit" className="text-sm text-white bg-black px-2 py-1 border-2 border-black">SUBSCRIBE</button>
           </form>
         </div>
       </div>
