@@ -16,13 +16,13 @@ const Footer = () => {
 
       <div className='flex flex-row justify-around items-center mx-20'>
         <h2 className="text-2xl font-bold">ARTSY.</h2>
-        <div>
+        <div className='flex flex-col gap-y-4 text-gray-700'>
           <a href="#"><p>Home</p></a>
           <a href="#"><p>Marketplace</p></a>
           <a href="#"><p>Auctions</p></a>
           <a href="#"><p>Drops</p></a>
         </div>
-        <div>
+        <div className='flex flex-col gap-y-4 text-gray-700'>
           <a href="#"><p>Blog</p></a>
           <a href="#"><p>Wallets</p></a>
           <a href="#"><p>Rates</p></a>
