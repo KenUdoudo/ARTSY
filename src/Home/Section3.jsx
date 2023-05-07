@@ -18,7 +18,7 @@ const Section3home = () => {
               <div className="flex flex-col ml-4 gap-3">
                 <h3 className="text-3xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
                 <p>STARTS ON 08:00 GTS. MONDAY</p>
-                <p className="text-lg">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
+                <p className="text-lg font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
               <div className="flex flex-row gap-8 ml-20 mt-20 items-center">
                 <a href="#"><p className="underline">See More</p></a>

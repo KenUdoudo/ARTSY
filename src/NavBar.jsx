@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="flex flex-row justify-between px-20 mt-5 items-center">
         <h3 className="text-2xl font-bold font-stix">ARTSY.</h3>
 
-        <ul className="flex flex-row gap-x-5">
+        <ul className="flex flex-row gap-x-5 font-rale">
           <li><a href="#">Home</a></li>
           <li><a href="#">Marketplace</a></li>
           <li><a href="#">Auctions</a></li>
