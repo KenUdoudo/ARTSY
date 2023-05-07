@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="mt-40">
-      <div>
+      <div className="flex flex-col justify-center items-center gap-y-4">
         <h3>NEWSLETTER</h3>
         <p>Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
@@ -11,6 +11,9 @@ const Footer = () => {
           </form>
         </div>
       </div>
+
+
+
     </div>
   );
 }
