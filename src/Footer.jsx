@@ -1,3 +1,5 @@
+import mail from './assets/Home/Framemail.png'
+import location from './assets/Home/Framelocation.png'
 const Footer = () => {
   return (
     <div className="mt-40">
@@ -28,11 +30,17 @@ const Footer = () => {
         </div>
         <div>
           <div>
-            
+            <img src={ mail }/>
+            <p>artsystudios@gmail.com</p>
+          </div>
+          <div>
+            <img src={ location }/>
+            <p>Lagos, Nigeria</p>
           </div>
         </div>
       </div>
 
+      <p>Artsystudios @ 2022. All Rights Reserved.</p>
 
     </div>
   );
