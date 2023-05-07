@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className="NavBar">
       <div className="flex flex-row justify-between px-20 mt-5 items-center">
-        <h3 className="text-2xl font-bold">ARTSY.</h3>
+        <h3 className="text-2xl font-bold font-stix">ARTSY.</h3>
 
         <ul className="flex flex-row gap-x-5">
           <li><a href="#">Home</a></li>

@@ -13,7 +13,7 @@ const Section2home = () => {
         <div className='flex flex-row gap-x-8 items-center'>
           <img src={ sec2img1 }/>
           <div className='flex flex-col gap-y-6'>
-            <h3 className='text-xl font-bold'>The Boolean Egyptian</h3>
+            <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
             <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
             <div className='flex flex-row justify-between items-center'>
               <img src={ groupProfile } className='w-auto h-2/4'/>
@@ -26,7 +26,7 @@ const Section2home = () => {
         <hr className="my-6"/>
         <div className='flex flex-row gap-x-8 items-center'>
           <div className='flex flex-col gap-y-6'>
-            <h3 className='text-xl font-bold'>The Boolean Egyptian</h3>
+            <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
             <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
             <div className='flex flex-row justify-between items-center'>
               <img src={ groupProfile } className='w-auto h-2/4'/>
@@ -42,7 +42,7 @@ const Section2home = () => {
         <div className='flex flex-row gap-x-8 items-center'>
           <img src={ sec2img3 }/>
           <div className='flex flex-col gap-y-6'>
-            <h3 className='text-xl font-bold'>The Boolean Egyptian</h3>
+            <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
             <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
             <div className='flex flex-row justify-between items-center'>
               <img src={ groupProfile } className='w-auto h-2/4'/>
