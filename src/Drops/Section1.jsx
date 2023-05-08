@@ -1,6 +1,8 @@
 const Section1drops = () => {
   return (  
-    <div></div>
+    <div>
+      <p>drops</p>
+    </div>
   );
 }
  
