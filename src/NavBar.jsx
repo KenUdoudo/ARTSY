@@ -3,7 +3,7 @@ import Bell from "./assets/Home/Notification iconbell.png"
 import search from './assets/Home/Search icon.png'
 const NavBar = () => {
 
-
+  const dropLink = "./src/Drops.jsx"
 
   return (
     <div className="NavBar">
@@ -14,7 +14,7 @@ const NavBar = () => {
           <li><a href="#">Home</a></li>
           <li><a href="#">Marketplace</a></li>
           <li><a href="#">Auctions</a></li>
-          <li><a href="#">Drop</a></li>
+          <li><a href={dropLink}>Drop</a></li>
         </ul>
        <div className="flex flex-row gap-x-5 items-center">
         <img src={ search } className="w-10 h-10"/>
