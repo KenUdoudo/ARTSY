@@ -33,14 +33,14 @@ const Section2home = () => {
               <img src={ arrow } className='w-10 h-10'/>
             </div>
           </div>
-          <img src={ sec2img2 }/>
+          <img src={ sec2img2 } className='lg:w-3/5 lg:h-3/5'/>
           
         </div>
 
 
         <hr className="my-6"/>
         <div className='flex flex-row gap-x-8 items-center'>
-          <img src={ sec2img3 }/>
+          <img src={ sec2img3 } className='lg:w-3/5 lg:h-3/5'/>
           <div className='flex flex-col gap-y-6'>
             <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
             <p className='text-lg font-rale'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
