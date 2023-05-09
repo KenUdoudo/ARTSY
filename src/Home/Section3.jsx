@@ -14,23 +14,23 @@ const Section3home = () => {
 
           <div className="absolute z-20 text-white  bottom-40">
             <div className="flex flex-row mx-6 items-center">
-              <h2 className="text-6xl">01</h2>
+              <h2 className="text-6xl lg:text-5xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
                 <h3 className="text-3xl lg:text-2xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
                 <p className="lg:text-sm">STARTS ON 08:00 GTS. MONDAY</p>
                 <p className="text-lg lg:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
               <div className="flex flex-row gap-8 ml-20 mt-20 lg:mt-24 items-center">
-                <a href="#"><p className="underline">See More</p></a>
+                <a href="#"><p className="underline lg:whitespace-nowrap">See More</p></a>
                 <a href="#"><p className="border px-3 py-2 rounded-md lg:whitespace-nowrap">Set a Reminder</p></a>
               </div>
             </div> 
           </div>
           <img src={ inside }/>
         </div>
-        <div className="flex flex-row justify-between items-center mt-2">
-          <img src={ loaderOne } className="w-auto h-2/4"/>
-          <img src={ arrow }/>
+        <div className="flex flex-row justify-between items-center mt-2 lg:mt-1">
+          <img src={ loaderOne } className="w-auto h-2/4 lg:w-1/4"/>
+          <img src={ arrow } className="lg:w-1/5"/>
         </div>
       </div>
       <img src={ backdrop } className="w-full h-auto z-0"/>
