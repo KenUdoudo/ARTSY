@@ -12,10 +12,10 @@ const Section1home = () => {
       <p className='text-lg font-rale'>Flip through more than 10,000 vintage shots, old photographs, historic <br />images and captures seamlessly in one place. Register to get top access.</p>
 
       <div className='flex flex-row justify-between gap-x-2 w-full overflow-hidden'>
-        <img src={ CarouselOne } className='w-4/5 lg:w-3/5 lg:h-40'/>
-        <img src={ CarouselTwo } className= 'w-4/5 lg:w-3/5 lg:h-40'/>
-        <img src={ CarouselThree } className='w-4/5 lg:w-3/5 lg:h-40'/>
-        <img src={ CarouselFour } className='w-4/5 lg:w-3/5 lg:h-40'/>
+        <img src={ CarouselOne } className='w-4/5 lg:w-3/5'/>
+        <img src={ CarouselTwo } className= 'w-4/5 lg:w-3/5 '/>
+        <img src={ CarouselThree } className='w-4/5 lg:w-3/5 '/>
+        <img src={ CarouselFour } className='w-4/5 lg:w-3/5'/>
       </div>
     </div>
 
