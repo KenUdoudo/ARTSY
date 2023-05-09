@@ -16,13 +16,13 @@ const Section3home = () => {
             <div className="flex flex-row mx-6 items-center">
               <h2 className="text-6xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
-                <h3 className="text-3xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
-                <p>STARTS ON 08:00 GTS. MONDAY</p>
-                <p className="text-lg font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
+                <h3 className="text-3xl lg:text-2xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
+                <p className="lg:text-sm">STARTS ON 08:00 GTS. MONDAY</p>
+                <p className="text-lg lg:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
-              <div className="flex flex-row gap-8 ml-20 mt-20 items-center">
+              <div className="flex flex-row gap-8 ml-20 mt-20 lg:mt-24 items-center">
                 <a href="#"><p className="underline">See More</p></a>
-                <a href="#"><p className="border px-3 py-2 rounded-md">Set a Reminder</p></a>
+                <a href="#"><p className="border px-3 py-2 rounded-md lg:whitespace-nowrap">Set a Reminder</p></a>
               </div>
             </div> 
           </div>
