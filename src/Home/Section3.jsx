@@ -36,7 +36,7 @@ const Section3home = () => {
       <img src={ backdrop } className="w-full h-auto z-0"/>
       <hr className="mt-20 mx-20" />
       <div className="flex flex-row justify-between items-center  mt-8 mx-20">
-        <h3 className=" text-2xl">Explore Marketplace</h3>
+        <h3 className=" text-2xl">Explore Marketplace.</h3>
         <img src={ blueArrow } className="w-10 h-10"/>
       </div>
       <hr className="mt-10 mx-20" />
