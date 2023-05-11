@@ -6,6 +6,7 @@ function App() {
   
   return (
     <Router>
+      <Routes>
     <div className="App">
       
 
@@ -13,6 +14,7 @@ function App() {
     <Home />
 
     </div>
+    </Routes>
     </Router>
   )
 }
