@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
 import Home from './Home'
+import Drops from './Drops'
 function App() {
   
   return (
@@ -10,6 +11,7 @@ function App() {
       <Router>
       <Routes>
         <Route exact path="/" element={ <Home /> } />
+        <Route exact path="/Drops" element={ <Drops /> } />
 
 
     </Routes>
