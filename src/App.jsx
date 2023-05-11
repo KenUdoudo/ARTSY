@@ -5,17 +5,18 @@ import Home from './Home'
 function App() {
   
   return (
-    <Router>
-      <Routes>
+    
     <div className="App">
-      
+      <Router>
+      <Routes>
+        <Route exact path="/" element={ <Home /> } />
 
 
-    <Home />
-
-    </div>
     </Routes>
     </Router>
+
+    </div>
+    
   )
 }
 
