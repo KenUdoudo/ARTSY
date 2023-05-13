@@ -1,7 +1,7 @@
 const Section1drops = () => {
   return (  
     <div>
-      <p>drops</p>
+      <h3>Upcoming Drops</h3>
     </div>
   );
 }
