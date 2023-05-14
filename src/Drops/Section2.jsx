@@ -9,6 +9,7 @@ const Section2drops = () => {
         </div>
         <div>
           <p>UPCOMING</p>
+          <p>November 21 at 11 am WAT</p>
         </div>
       </div>
 
