@@ -10,6 +10,7 @@ const Section2drops = () => {
         <div>
           <p>UPCOMING</p>
           <p>November 21 at 11 am WAT</p>
+          <h3>Eyo : Eko For Show</h3>
         </div>
       </div>
 
