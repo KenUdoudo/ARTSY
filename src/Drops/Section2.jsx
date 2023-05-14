@@ -5,7 +5,7 @@ const Section2drops = () => {
     <div className="mx-20">
       <div className='flex flex-row'>
         <div>
-          <img src={ eyo }/>
+          <img src={ eyo } className='w-3/4'/>
         </div>
         <div>
           <p>UPCOMING</p>
