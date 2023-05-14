@@ -4,7 +4,12 @@ const Section2drops = () => {
   return (
     <div className="mx-20">
       <div>
-        <div><img src={ eyo }/></div>
+        <div>
+          <img src={ eyo }/>
+        </div>
+        <div>
+          <p>UPCOMING</p>
+        </div>
       </div>
 
 
