@@ -3,11 +3,11 @@ import eyo from './assets/Rectangle 82.png'
 const Section2drops = () => {
   return (
     <div className="mx-20">
-      <div className='flex flex-row justify-center items-center'>
+      <div className='flex flex-row justify-center items-center gap-x-8 mt-10'>
         
           <img src={ eyo } className='w-3/6'/>
       
-        <div>
+        <div className='flex flex-col gap-y-6'>
           <p>UPCOMING</p>
           <p>November 21 at 11 am WAT</p>
           <h3>Eyo : Eko For Show</h3>
