@@ -12,8 +12,8 @@ const Section2drops = () => {
           <p className='text-sm'>November 21 at 11 am WAT</p>
           <h3 className='text-lg font-semibold'>Eyo : Eko For Show</h3>
           <p className='text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br /> Excepturi reiciendis, voluptatem dolore voluptate eum <br />  voluptatum possimus libero? </p>
-          <p>Creator : <a href="#"><span>Aliya Minat</span></a></p>
-          <a href="#">Get notified</a>
+          <p className='font-semibold'>Creator : <a href="#"><span className='text-blue-600'>Aliya Minat</span></a></p>
+          <a href="#" className='text-blue-600 underline text-sm'>Get notified</a>
         </div>
       </div>
 
