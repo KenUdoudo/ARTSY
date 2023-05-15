@@ -8,7 +8,7 @@ const Section2drops = () => {
           <img src={ eyo } className='w-3/6'/>
       
         <div className='flex flex-col gap-y-6 justify-center items-start'>
-          <p className='border rounded'>UPCOMING</p>
+          <p className='border-0 rounded px-6 py-1'>UPCOMING</p>
           <p>November 21 at 11 am WAT</p>
           <h3>Eyo : Eko For Show</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi <br /> reiciendis, voluptatem dolore voluptate eum voluptatum possimus libero? </p>
