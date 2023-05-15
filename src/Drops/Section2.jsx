@@ -4,7 +4,7 @@ import water from './assets/Rectangle 87.png'
 import material from './assets/Rectangle 232.png'
 const Section2drops = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-20 flex flex-col justify-center items-center">
       <div className='flex flex-row justify-center items-center gap-x-8 mt-10'>
         
           <img src={ eyo } className='w-3/6'/>
@@ -59,10 +59,11 @@ const Section2drops = () => {
         <p className='font-semibold'>Creator : <a href="#"><span className='text-blue-600'>Aliya Minat</span></a></p>
         <a href="#" className='text-blue-600 underline text-sm'>View</a>
       </div>
+      
     </div>
+    <a href="#"><p className='flex text-center border'>See More</p> </a>
 
-
-
+      
 
     </div>
   );
