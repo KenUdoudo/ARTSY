@@ -17,7 +17,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row justify-center items-center gap-x-8 mt-10'>
+      <div className='flex flex-row justify-center items-center gap-x-8 mt-16'>
         
           <img src={ ginger } className='w-3/6'/>
       
