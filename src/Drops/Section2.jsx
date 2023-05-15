@@ -9,8 +9,8 @@ const Section2drops = () => {
       
         <div className='flex flex-col gap-y-6 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-blue-700 text-white text-sm'>UPCOMING</p>
-          <p>November 21 at 11 am WAT</p>
-          <h3>Eyo : Eko For Show</h3>
+          <p className='text-sm'>November 21 at 11 am WAT</p>
+          <h3 className='text-lg font-semibold'>Eyo : Eko For Show</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi <br /> reiciendis, voluptatem dolore voluptate eum voluptatum possimus libero? </p>
           <p>Creator : <a href="#"><span>Aliya Minat</span></a></p>
           <a href="#">Get notified</a>
