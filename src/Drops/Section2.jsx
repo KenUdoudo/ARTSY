@@ -61,7 +61,7 @@ const Section2drops = () => {
       </div>
       
     </div>
-    <a href="#"><p className='flex text-center border'>See More</p> </a>
+    <a href="#"><p className='flex text-center border border-gray-900 px-4 py-1 mt-10 rounded'>See More</p> </a>
 
       
 
