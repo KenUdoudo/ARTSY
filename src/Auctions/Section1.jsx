@@ -8,7 +8,7 @@ const Section1auction = () => {
 
       <div className='flex flex-row'>
         <div className='static'>
-        <p className='absolute z-10'>6hrs: 40mins: 15s</p>
+        <p className='absolute z-10 border-0 rounded bg-slate-700'>6hrs: 40mins: 15s</p>
           <img src={ one }/>
         </div>
 
