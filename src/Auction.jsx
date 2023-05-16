@@ -1,4 +1,5 @@
 import Section1auction from "./Auctions/Section1";
+import Section2auction from "./Auctions/Section2";
 import NavBar from "./NavBar";
 
 const Auction = () => {
@@ -8,6 +9,8 @@ const Auction = () => {
     <NavBar />
 
     <Section1auction />
+
+    <Section2auction />
     </div>
   );
 }
