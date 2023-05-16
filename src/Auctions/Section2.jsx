@@ -2,7 +2,7 @@ import out from './assets/Group 527.png'
 import fall from './assets/Group 528 (1).png'
 const Section2auction = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-20 font-rale">
       <p className="mt-20 font-semibold">Top bids from popular creators</p>
 
       <div className='flex flex-row gap-x-10 mt-10'>

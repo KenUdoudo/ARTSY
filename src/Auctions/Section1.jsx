@@ -3,7 +3,7 @@ import two from './assets/Rectangle 246.png'
 import three from './assets/Rectangle 245.png'
 const Section1auction = () => {
   return (  
-    <div className="mx-20">
+    <div className="mx-20 font-rale">
       <p className="mt-28 font-semibold">Here's an overview of products actively on auction, explore!</p>
 
       <div className='flex flex-row mt-10'>
