@@ -9,6 +9,8 @@ const Section2auction = () => {
         <div>
           <img src={ out } />
           <p className='text-gray-600 font-semibold text-lg'>Creator: <span className='text-black'>Dan Murray</span></p>
+          <p className='text-gray-600 font-semibold text-lg'>Date: <span className='text-black'>12/08/22</span></p>
+          <p className='text-gray-600 font-semibold text-lg'>Highest bid: <span className='text-black'>0.57 ETH</span></p>
         </div>
       </div>
     </div>
