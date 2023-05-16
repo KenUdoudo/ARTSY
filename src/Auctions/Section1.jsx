@@ -6,7 +6,7 @@ const Section1auction = () => {
     <div className="mx-20">
       <p className="mt-28 font-semibold">Here's an overview of products actively on auction, explore!</p>
 
-      <div>
+      <div className='flex flex-row'>
         <div>
           <img src={ one }/>
         </div>
