@@ -7,7 +7,8 @@ const Section1auction = () => {
       <p className="mt-28 font-semibold">Here's an overview of products actively on auction, explore!</p>
 
       <div className='flex flex-row'>
-        <div>
+        <div className='static'>
+        <p className='absolute z-10'>6hrs: 40mins: 15s</p>
           <img src={ one }/>
         </div>
 
