@@ -13,7 +13,7 @@ const Section2auction = () => {
           <p className='text-gray-600 font-semibold text-lg'>Highest bid: <span className='text-black'>0.57 ETH</span></p>
 
 
-          <div>
+          <div className='flex flex-row gap-x-6 items-center'>
             <div>
               <p className='text-gray-600 font-semibold text-lg'>Current bid</p>
               <p className='font-semibold text-lg'>0.987 ETH</p>
