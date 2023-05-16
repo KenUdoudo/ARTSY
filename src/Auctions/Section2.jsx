@@ -8,6 +8,7 @@ const Section2auction = () => {
       <div>
         <div>
           <img src={ out } />
+          <p className='text-gray-600 font-semibold text-lg'>Creator: <span className='text-black'>Dan Murray</span></p>
         </div>
       </div>
     </div>
