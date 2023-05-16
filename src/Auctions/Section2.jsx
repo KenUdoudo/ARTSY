@@ -11,7 +11,22 @@ const Section2auction = () => {
           <p className='text-gray-600 font-semibold text-lg'>Creator: <span className='text-black'>Dan Murray</span></p>
           <p className='text-gray-600 font-semibold text-lg'>Date: <span className='text-black'>12/08/22</span></p>
           <p className='text-gray-600 font-semibold text-lg'>Highest bid: <span className='text-black'>0.57 ETH</span></p>
+
+
+          <div>
+            <div>
+              <p className='text-gray-600 font-semibold text-lg'>Current bid</p>
+              <p className='font-semibold text-lg'>0.987 ETH</p>
+            </div>
+            <button className='border-0 bg-blue-700 text-white
+             text-sm px-6 py-1 '>Place bid</button>
+          </div>
         </div>
+
+
+
+
+
       </div>
     </div>
   );
