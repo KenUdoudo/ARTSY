@@ -1,6 +1,6 @@
 const Marketplace = () => {
   return (
-    <div className="market">
+    <div>
       <h2>market</h2>
 
     </div>
