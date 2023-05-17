@@ -14,7 +14,7 @@ const NavBar = () => {
 
         <ul className="flex flex-row gap-x-5 font-rale">
           <li><a href="/">Home</a></li>
-          <li><a href="#">Marketplace</a></li>
+          <li><a href="/Marketplace">Marketplace</a></li>
           <li><a href="/Auction">Auctions</a></li>
           <li><a href='/Drops'>Drop</a></li>
         </ul>
