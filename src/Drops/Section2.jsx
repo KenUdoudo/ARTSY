@@ -9,7 +9,7 @@ const Section2drops = () => {
         
           <img src={ eyo } className='w-3/6'/>
       
-        <div className='flex flex-col gap-y-6 justify-center items-start'>
+        <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-blue-700 text-white text-sm'>UPCOMING</p>
           <p className='text-sm'>November 21 at 11 am WAT</p>
           <h3 className='text-lg font-semibold'>Eyo : Eko For Show</h3>
