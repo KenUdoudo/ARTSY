@@ -5,7 +5,7 @@ import material from './assets/Rectangle 232.png'
 const Section2drops = () => {
   return (
     <div className="mx-20 flex flex-col justify-center items-center font-rale">
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 mt-10'>
+      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-10'>
         
           <img src={ eyo } className='w-3/6'/>
       
@@ -19,7 +19,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 mt-16'>
+      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
         
           <img src={ ginger } className='w-3/6'/>
       
@@ -33,7 +33,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 mt-16'>
+      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
         
           <img src={ water } className='w-3/6'/>
       
@@ -47,7 +47,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 mt-16'>
+      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
         
         <img src={ material } className='w-3/6'/>
     
