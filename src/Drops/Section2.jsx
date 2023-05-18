@@ -7,7 +7,7 @@ const Section2drops = () => {
     <div className="mx-20 flex flex-col justify-center items-center font-rale">
       <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-10'>
         
-          <img src={ eyo } className='w-3/6'/>
+          <img src={ eyo } className='w-3/6 sm:w-5/6'/>
       
         <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-blue-700 text-white text-sm'>UPCOMING</p>
@@ -21,7 +21,7 @@ const Section2drops = () => {
 
       <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
         
-          <img src={ ginger } className='w-3/6'/>
+          <img src={ ginger } className='w-3/6 sm:w-5/6'/>
       
         <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-green-700 text-white text-sm'>LIVE NOW</p>
@@ -35,7 +35,7 @@ const Section2drops = () => {
 
       <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
         
-          <img src={ water } className='w-3/6'/>
+          <img src={ water } className='w-3/6 sm:w-5/6'/>
       
         <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-gray-700 text-white text-sm'>ENDED</p>
@@ -49,7 +49,7 @@ const Section2drops = () => {
 
       <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
         
-        <img src={ material } className='w-3/6'/>
+        <img src={ material } className='w-3/6 sm:w-5/6'/>
     
       <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
         <p className='border-0 rounded px-6 py-1 bg-gray-700 text-white text-sm'>ENDED</p>
