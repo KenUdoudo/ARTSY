@@ -23,7 +23,7 @@ const Section2drops = () => {
         
           <img src={ ginger } className='w-3/6'/>
       
-        <div className='flex flex-col gap-y-6 justify-center items-start'>
+        <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-green-700 text-white text-sm'>LIVE NOW</p>
           <p className='text-sm'>November 21 at 11 am WAT</p>
           <h3 className='text-lg font-semibold'>Ginger Suburbs</h3>
@@ -37,7 +37,7 @@ const Section2drops = () => {
         
           <img src={ water } className='w-3/6'/>
       
-        <div className='flex flex-col gap-y-6 justify-center items-start'>
+        <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-gray-700 text-white text-sm'>ENDED</p>
           <p className='text-sm'>November 21 at 11 am WAT</p>
           <h3 className='text-lg font-semibold'>Sink</h3>
@@ -51,7 +51,7 @@ const Section2drops = () => {
         
         <img src={ material } className='w-3/6'/>
     
-      <div className='flex flex-col gap-y-6 justify-center items-start'>
+      <div className='flex flex-col gap-y-6 md:gap-y-3 justify-center items-start'>
         <p className='border-0 rounded px-6 py-1 bg-gray-700 text-white text-sm'>ENDED</p>
         <p className='text-sm'>November 21 at 11 am WAT</p>
         <h3 className='text-lg font-semibold'>Warped 99</h3>
