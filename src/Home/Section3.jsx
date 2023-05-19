@@ -12,8 +12,8 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  bottom-40">
-            <div className="flex flex-row mx-6 items-center">
+          <div className="absolute z-20 text-white  bottom-40 md:bottom-28">
+            <div className="flex flex-row mx-6 md:mx-2 items-center">
               <h2 className="text-6xl lg:text-5xl md:text-3xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
                 <h3 className="text-3xl lg:text-2xl md:text-xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
