@@ -12,7 +12,7 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  bottom-40 md:bottom-28">
+          <div className="absolute z-20 text-white  bottom-40 md:bottom-20">
             <div className="flex flex-row mx-6 md:mx-2 items-center">
               <h2 className="text-6xl lg:text-5xl md:text-3xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
@@ -22,15 +22,15 @@ const Section3home = () => {
               </div>
               <div className="flex flex-row gap-8 ml-20 mt-20 lg:mt-24 items-center">
                 <a href="#"><p className="underline lg:whitespace-nowrap">See More</p></a>
-                <a href="#"><p className="border px-3 py-2 rounded-md lg:whitespace-nowrap">Set a Reminder</p></a>
+                <a href="#"><p className="border px-3 py-2 rounded-md lg:whitespace-nowrap md:text-sm">Set a Reminder</p></a>
               </div>
             </div> 
           </div>
           <img src={ inside }/>
         </div>
         <div className="flex flex-row justify-between items-center mt-2 lg:mt-1">
-          <img src={ loaderOne } className="w-auto h-2/4 lg:w-1/4"/>
-          <img src={ arrow } className="lg:w-1/5"/>
+          <img src={ loaderOne } className="w-auto h-2/4 lg:w-1/4 md:w-2/6"/>
+          <img src={ arrow } className="lg:w-1/5 md:w-1/6"/>
         </div>
       </div>
       <img src={ backdrop } className="w-full h-auto z-0"/>
