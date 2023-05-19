@@ -39,7 +39,7 @@ const Section2home = () => {
 
 
         <hr className="my-6"/>
-        <div className='flex flex-row md:flex-col  md:gap-y-4 gap-x-8 items-center'>
+        <div className='flex flex-row md:flex-col md:gap-y-4 gap-x-8 items-center'>
           <img src={ sec2img3 } className='lg:w-3/5 lg:h-3/5'/>
           <div className='flex flex-col gap-y-6'>
             <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
