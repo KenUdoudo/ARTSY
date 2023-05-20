@@ -2,6 +2,7 @@ import CarouselOne from './assets/Homepage carousel WEB.png'
 import CarouselTwo from './assets/Homepage carousel WEB (1).png'
 import CarouselThree from './assets/Homepage carousel WEB (2).png'
 import CarouselFour from './assets/Homepage carousel WEB (3).png'
+import mainPic from './assets/Component 13home 1st img.png'
 
 const Section1home = () => {
   return (
