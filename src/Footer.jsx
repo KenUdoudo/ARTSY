@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div className="mt-40">
       <div className="flex flex-col justify-center sm:justify-start items-center sm:items-start gap-y-4 border-2 sm:border-0 mx-10 py-10">
-        <h3 className="text-lg font-stix">NEWSLETTER</h3>
-        <p className="text-lg font-rale">Subscribe to get daily updates on news drops & exciting deals</p>
+        <h3 className="text-lg font-stix sm:text-2xl">NEWSLETTER</h3>
+        <p className="text-lg font-rale sm:text-xl">Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
           <form className="flex flex-row gap-x-4  font-rale">
             <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 pr-16 py-1 text-sm"/>
