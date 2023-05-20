@@ -7,7 +7,7 @@ const Footer = () => {
         <h3 className="text-lg font-stix sm:text-2xl">NEWSLETTER</h3>
         <p className="text-lg font-rale sm:text-xl">Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
-          <form className="flex flex-row gap-x-4  font-rale">
+          <form className="flex flex-row sm:flex-col gap-x-4 sm:gap-y-4 sm:justify-start sm:items-start  font-rale">
             <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 pr-16 py-1 text-sm"/>
             <button type="submit" className="text-sm text-white bg-black px-2 py-1 border-2 border-black">SUBSCRIBE</button>
           </form>
