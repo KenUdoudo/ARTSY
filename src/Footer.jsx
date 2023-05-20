@@ -3,7 +3,7 @@ import location from './assets/Home/Framelocation.png'
 const Footer = () => {
   return (
     <div className="mt-40">
-      <div className="flex flex-col justify-center items-center gap-y-4 border-2 sm:border-0 mx-10 py-10">
+      <div className="flex flex-col justify-center sm:justify-start items-center sm:items-start gap-y-4 border-2 sm:border-0 mx-10 py-10">
         <h3 className="text-lg font-stix">NEWSLETTER</h3>
         <p className="text-lg font-rale">Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
