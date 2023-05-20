@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="text-lg font-rale sm:text-xl">Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
           <form className="flex flex-row sm:flex-col gap-x-4 sm:gap-y-4 sm:justify-start sm:items-start  font-rale">
-            <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 pr-16 py-1 text-sm"/>
+            <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 sm:pl-8 pr-16 py-1 sm:py-2 text-sm sm:text-lg"/>
             <button type="submit" className="text-sm text-white bg-black px-2 py-1 border-2 border-black">SUBSCRIBE</button>
           </form>
         </div>
