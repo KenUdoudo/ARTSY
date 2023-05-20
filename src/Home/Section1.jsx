@@ -18,6 +18,7 @@ const Section1home = () => {
         <img src={ CarouselThree } className='w-4/5 lg:w-3/5 '/>
         <img src={ CarouselFour } className='w-4/5 lg:w-3/5'/>
       </div>
+      <img src={ mainPic }/>
     </div>
 
   );
