@@ -8,7 +8,7 @@ const Section1home = () => {
   return (
 
     <div className="flex flex-col justify-center items-center gap-y-5 text-center mt-5 sm:mx-20">
-      <h2 className='text-6xl lg:text-5xl md:text-4xl sm:text-3xl font-bold font-bruno'>Photography is poetry & <br/>beautiful untold stories</h2>
+      <h2 className='text-2xl lg:text-6xl md:text-4xl sm:text-3xl font-bold font-bruno'>Photography is poetry & <br/>beautiful untold stories</h2>
 
       <p className='text-lg md:text-base sm:text-sm font-rale'>Flip through more than 10,000 vintage shots, old photographs, historic <br />images and captures seamlessly in one place. Register to get top access.</p>
 
