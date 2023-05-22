@@ -10,7 +10,7 @@ const Section2home = () => {
 
       <div>
         <hr className="my-6"/>
-        <div className='flex flex-col lg:flex-row sm:gap-y-4 md:gap-y-4 gap-x-8 items-center'>
+        <div className='flex flex-col lg:flex-row gap-y-4 md:gap-y-4 gap-x-8 items-center'>
           <img src={ sec2img1 } className='lg:w-3/5 lg:h-3/5'/>
           <div className='flex flex-col gap-y-6'>
             <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
@@ -24,7 +24,7 @@ const Section2home = () => {
 
 
         <hr className="my-6"/>
-        <div className='flex flex-row md:flex-col-reverse sm:flex-col-reverse sm:gap-y-4 md:gap-y-4 gap-x-8 items-center'>
+        <div className='flex flex-col-reverse lg:flex-row gap-y-4 md:gap-y-4 gap-x-8 items-center'>
           <div className='flex flex-col gap-y-6'>
             <h3 className='text-xl font-bold font-stix'>The Boolean Egyptian</h3>
             <p className='text-lg font-rale'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad deleniti delectus cum at harum ipsum fugiat laboriosam culpa vitae, sed cumque iure corrupti exercitationem enim odit. Explicabo, voluptates praesentium!</p>
