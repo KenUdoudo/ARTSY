@@ -7,7 +7,7 @@ const Section3home = () => {
   return (
     <div className="static mt-40">
       <div className="absolute mx-20 z-10">
-        <h3 className="mt-6 text-2xl md:text-xl text-white">See Upcoming Auctions and Exibitions</h3>
+        <h3 className="mt-2 lg:mt-6 text-base sm:text-lg text-white">See Upcoming Auctions and Exibitions</h3>
         <hr className="my-4 md:my-1 mx-2" />
         <div>
 
