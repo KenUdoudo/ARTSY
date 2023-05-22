@@ -20,22 +20,22 @@ const Section3home = () => {
                 <p className="lg:text-sm md:text-xs">STARTS ON 08:00 GTS. MONDAY</p>
                 <p className="text-sm lg:text-lg md:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
-              <div className="flex flex-row gap-8 ml-20 mt-20 lg:mt-24 items-center">
-                <a href="#"><p className="underline lg:whitespace-nowrap">See More</p></a>
-                <a href="#"><p className="border px-3 py-2 rounded-md lg:whitespace-nowrap md:text-sm">Set a Reminder</p></a>
+              <div className="flex flex-row gap-4 ml-20 mt-40 lg:mt-20 items-center">
+                <a href="#"><p className="underline whitespace-nowrap">See More</p></a>
+                <a href="#"><p className="border px-3 py-2 rounded-md whitespace-nowrap text-sm">Set a Reminder</p></a>
               </div>
             </div> 
           </div>
           <img src={ inside }/>
         </div>
-        <div className="flex flex-row justify-between items-center mt-2 lg:mt-1">
-          <img src={ loaderOne } className="w-auto h-2/4 lg:w-1/4 md:w-2/6"/>
-          <img src={ arrow } className="lg:w-1/5 md:w-1/6"/>
+        <div className="flex flex-row justify-between items-center mt-1 lg:mt-2">
+          <img src={ loaderOne } className="lg:w-auto h-2/4 w-1/4 sm:w-2/6"/>
+          <img src={ arrow } className="md:w-1/5 w-1/6"/>
         </div>
       </div>
       <img src={ backdrop } className="w-full h-auto z-0"/>
       <hr className="mt-20 mx-20" />
-      <div className="flex flex-row justify-between items-center  mt-8 mx-20">
+      <div className="flex flex-row justify-between items-center  mt-8 mx-10 sm:mx-20">
         <h3 className=" text-2xl">Explore Marketplace.</h3>
         <img src={ blueArrow } className="w-10 h-10"/>
       </div>
