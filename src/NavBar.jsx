@@ -1,7 +1,7 @@
 import Cart from "./assets/Home/Vectorcart.png"
 import Bell from "./assets/Home/Notification iconbell.png"
 import search from './assets/Home/Search icon.png'
-
+import { Link } from 'react-router-dom'
 const NavBar = () => {
 
 
@@ -13,10 +13,10 @@ const NavBar = () => {
         <h3 className="text-2xl font-bold font-stix">ARTSY.</h3>
 
         <ul className="flex flex-row gap-x-5 font-rale">
-          <li><a href="/">Home</a></li>
-          <li><a href="/Marketplace">Marketplace</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/Marketplace">Marketplace</Link></li>
           <li><Link to="/Auctions">Auctions</Link></li>
-          <li><a href='/Drops'>Drop</a></li>
+          <li><Link to='/Drops'>Drop</Link></li>
         </ul>
        <div className="flex flex-row gap-x-5 items-center">
         <img src={ search } className="w-10 h-10"/>

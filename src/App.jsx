@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
+import { Router, Route, Routes } from 'react-router-dom'
 import Drops from './Drops'
 import Home from './Home'
 import Auction from './Auction'
