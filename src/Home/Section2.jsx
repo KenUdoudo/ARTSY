@@ -5,7 +5,7 @@ import groupProfile from './assets/Group 526people.png'
 import arrow from './assets/Group 503.png'
 const Section2home = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-10 md:mx-20">
       <h3 className="mt-14 text-2xl text-gray-700">Featured products</h3>
 
       <div>
