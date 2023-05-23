@@ -12,16 +12,15 @@ function App() {
     
     <div className="App">
      
-     <Router>
+     
       <Routes>
       
       <Route exact path="/" element={ <Home /> }/>
       <Route exact path="/Marketplace" element={ <Marketplace /> }/>
-      <Route exact path="/Auction" element={ <Auction /> }/>
+      <Route exact path="/Auctions" element={ <Auction /> }/>
       <Route exact path="/Drops" element={ <Drops /> }/>
 
      </Routes>
-    </Router>
     </div>
     
   )
