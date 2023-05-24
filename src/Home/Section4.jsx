@@ -12,7 +12,7 @@ const Section4home = () => {
       </div>
 
       <div className='flex flex-row justify-between mx-20 pt-10 z-0'>
-        <h2 className='font-bold text-3xl font-bruno'>TOP CREATORS OF <br />THE WEEK</h2>
+        <h2 className='font-bold text-lg sm:text-xl md:text-3xl font-bruno'>TOP CREATORS OF <br />THE WEEK</h2>
         <div className='flex flex-row gap-x-3'>
           <img src={ loader2 } className='w-auto h-3/6'/>
           <div>
