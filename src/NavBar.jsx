@@ -18,7 +18,7 @@ const NavBar = () => {
           <li><Link to="/Auctions">Auctions</Link></li>
           <li><Link to='/Drops'>Drop</Link></li>
         </ul>
-       <div className="flex flex-row gap-x-5 items-center">
+       <div className="md:flex flex-row gap-x-5 items-center hidden">
         <img src={ search } className="w-10 h-10"/>
         <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
         <a href="#"><img src= { Bell } className="w-9 h-10"/></a>
