@@ -6,7 +6,7 @@ import blueArrow from './assets/arrow 1.png'
 const Section3home = () => {
   return (
     <div className="static mt-40">
-      <div className="absolute mx-20 z-10">
+      <div className="absolute mx-10 md:mx-20 z-10">
         <h3 className="mt-2 lg:mt-6 text-base sm:text-lg lg:text-xl text-white">See Upcoming Auctions and Exibitions</h3>
         <hr className="my-1 md:my-4 mx-2" />
         <div>
@@ -16,9 +16,9 @@ const Section3home = () => {
             <div className="flex flex-row mx-2 md:mx-6 items-center">
               <h2 className="text-3xl lg:text-6xl md:text-5xl">01</h2>
               <div className="flex flex-col ml-4 gap-3">
-                <h3 className="text-xl lg:text-3xl md:text-2xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
-                <p className="lg:text-sm md:text-xs">STARTS ON 08:00 GTS. MONDAY</p>
-                <p className="text-sm lg:text-lg md:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
+                <h3 className="text-xs lg:text-3xl md:text-2xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
+                <p className="text-xs lg:text-sm md:text-xs">STARTS ON 08:00 GTS. MONDAY</p>
+                <p className="text-xs lg:text-lg md:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
               </div>
               <div className="flex flex-row gap-4 ml-20 mt-40 lg:mt-20 items-center">
                 <a href="#"><p className="underline whitespace-nowrap">See More</p></a>
@@ -26,7 +26,7 @@ const Section3home = () => {
               </div>
             </div> 
           </div>
-          <img src={ inside }/>
+          <img src={ inside } className="w-full"/>
         </div>
         <div className="flex flex-row justify-between items-center mt-1 lg:mt-2">
           <img src={ loaderOne } className="lg:w-auto h-2/4 w-1/4 sm:w-2/6"/>
