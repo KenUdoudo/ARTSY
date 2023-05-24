@@ -1,6 +1,7 @@
 import Cart from "./assets/Home/Vectorcart.png"
 import Bell from "./assets/Home/Notification iconbell.png"
 import search from './assets/Home/Search icon.png'
+import hamburger from './assets/Home/Frame 38hamburger.png'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
 
@@ -23,6 +24,7 @@ const NavBar = () => {
         <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
         <a href="#"><img src= { Bell } className="w-9 h-10"/></a>
         </div>
+        <img src={ hamburger } className="md:hidden"/>
       </div>
       
     </div>
