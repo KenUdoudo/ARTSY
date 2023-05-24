@@ -19,7 +19,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
+      <div className='flex md:flex-row flex-col justify-center items-center md:gap-x-12 gap-y-10 mt-10'>
         
           <img src={ ginger } className='w-3/6 sm:w-5/6'/>
       
@@ -33,7 +33,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
+      <div className='flex md:flex-row flex-col justify-center items-center md:gap-x-12 gap-y-10 mt-10'>
         
           <img src={ water } className='w-3/6 sm:w-5/6'/>
       
@@ -47,7 +47,7 @@ const Section2drops = () => {
         </div>
       </div>
 
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-16'>
+      <div className='flex md:flex-row flex-col justify-center items-center md:gap-x-12 gap-y-10 mt-10'>
         
         <img src={ material } className='w-3/6 sm:w-5/6'/>
     
