@@ -25,7 +25,7 @@ const Section4home = () => {
           </div>
         </div>
       </div>
-      <p className='-mt-14 ml-20 mr-40 pb-10 z-10 font-rale'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos magni laudantium eius fugiat doloremque? <br />Incidunt, non nam? Illum hic quisquam assumenda eaque. Animi praesentium illum, nihil et eveniet temporibus totam. <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto dignissimos dolorum repudiandae qui vitae laboriosam voluptates cumque, nesciunt magnam vero alias, odio asperiores porro eum at maxime eligendi illum?</p>
+      <p className='-mt-14 ml-10 md:ml-20 mr-20 md:mr-40 pb-10 z-10 font-rale'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos magni laudantium eius fugiat doloremque? <br />Incidunt, non nam? Illum hic quisquam assumenda eaque. Animi praesentium illum, nihil et eveniet temporibus totam. <br />Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto dignissimos dolorum repudiandae qui vitae laboriosam voluptates cumque, nesciunt magnam vero alias, odio asperiores porro eum at maxime eligendi illum?</p>
 
 
     </div>
