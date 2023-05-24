@@ -3,11 +3,11 @@ import location from './assets/Home/Framelocation.png'
 const Footer = () => {
   return (
     <div className="mt-40">
-      <div className="flex flex-col justify-center sm:justify-start items-center sm:items-start gap-y-4 border-2 sm:border-0 mx-10 py-10">
-        <h3 className="text-lg font-stix sm:text-2xl">NEWSLETTER</h3>
+      <div className="flex flex-col md:justify-center justify-start md:items-center items-start gap-y-4 md:border-2 border-0 mx-10 py-10">
+        <h3 className="text-2xl font-stix sm:text-xl md:text-lg">NEWSLETTER</h3>
         <p className="text-lg font-rale sm:text-xl">Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
-          <form className="flex flex-row sm:flex-col gap-x-4 sm:gap-y-4 sm:justify-start sm:items-start  font-rale">
+          <form className="flex md:flex-row flex-col md:gap-x-4 gap-y-4 justify-start md:justify-center items-start md:items-center font-rale">
             <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 sm:pl-8 pr-16 py-1 sm:py-2 text-sm sm:text-lg"/>
             <button type="submit" className="text-sm text-white bg-black px-2 py-1 border-2 border-black">SUBSCRIBE</button>
           </form>
