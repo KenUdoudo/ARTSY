@@ -4,12 +4,12 @@ import water from './assets/Rectangle 87.png'
 import material from './assets/Rectangle 232.png'
 const Section2drops = () => {
   return (
-    <div className="mx-20 flex flex-col justify-center items-center font-rale">
-      <div className='flex flex-row sm:flex-col justify-center items-center gap-x-12 sm:gap-y-10 mt-10'>
+    <div className="mx-10 md:mx-20 flex flex-col justify-center items-center font-rale">
+      <div className='flex md:flex-row flex-col justify-center items-center md:gap-x-12 gap-y-10 mt-10'>
         
-          <img src={ eyo } className='w-3/6 sm:w-5/6'/>
+          <img src={ eyo } className='md:w-3/6 w-5/6'/>
       
-        <div className='flex flex-col gap-y-6 md:gap-y-3 sm:gap-y-1 justify-center items-start'>
+        <div className='flex flex-col md:gap-y-6 sm:gap-y-3 gap-y-1 justify-center items-start'>
           <p className='border-0 rounded px-6 py-1 bg-blue-700 text-white text-sm'>UPCOMING</p>
           <p className='text-sm'>November 21 at 11 am WAT</p>
           <h3 className='text-lg font-semibold'>Eyo : Eko For Show</h3>
