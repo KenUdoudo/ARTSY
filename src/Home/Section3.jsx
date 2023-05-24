@@ -12,7 +12,7 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  bottom-12 sm:bottom-20 md:bottom-40">
+          <div className="absolute z-20 text-white  bottom-14 sm:bottom-20 md:bottom-40">
             <div className="md:flex flex-row mx-2 md:mx-6 items-center hidden">
               <h2 className="text-xl lg:text-6xl md:text-5xl">01</h2>
               <div className="flex flex-col ml-4 gap-y-1 sm:gap-y-3">
@@ -25,7 +25,7 @@ const Section3home = () => {
                 <a href="#"><p className="border px-3 py-2 rounded-md whitespace-nowrap text-sm">Set a Reminder</p></a>
               </div>
             </div> 
-            <p className=" md:hidden text-xs sm:text-sm lg:text-lg md:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
+            <p className=" md:hidden ml-4 text-xs sm:text-sm font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
           </div>
           <img src={ inside } className="w-full"/>
         </div>
