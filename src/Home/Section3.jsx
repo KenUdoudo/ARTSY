@@ -12,10 +12,10 @@ const Section3home = () => {
         <div>
 
 
-          <div className="absolute z-20 text-white  bottom-20 md:bottom-40">
+          <div className="absolute z-20 text-white  bottom-12 sm:bottom-20 md:bottom-40">
             <div className="flex flex-row mx-2 md:mx-6 items-center">
               <h2 className="text-xl lg:text-6xl md:text-5xl">01</h2>
-              <div className="flex flex-col ml-4 gap-3">
+              <div className="flex flex-col ml-4 gap-y-1 sm:gap-y-3">
                 <h3 className="text-xs sm:text-sm lg:text-3xl md:text-2xl font-stix">MONALISA REDEFINDED <br />IN STYLE.</h3>
                 <p className="text-xs lg:text-sm md:text-xs">STARTS ON 08:00 GTS. MONDAY</p>
                 <p className="text-xs sm:text-sm lg:text-lg md:text-base font-rale">GET EXCLUSIVE VIEWING OF CONTEMPORARY ART AND CONNECT WITH <br />INVESTORS AND AUCTIONEERS ACROSS THE WORLD BRINGING THEIR <br />HIGHEST AND LOWEST BIDS. </p>
