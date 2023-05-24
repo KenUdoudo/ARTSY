@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex flex-col md:flex-row justify-around items-start md:items-center mx-10 md:mx-20 mt-8'>
+      <div className='flex flex-col md:flex-row justify-around items-start md:items-center mx-10 md:mx-20 mt-8 gap-y-4'>
         <h2 className="text-2xl font-bold font-bruno">ARTSY.</h2>
         <div className='hidden md:flex flex-col gap-y-4 text-gray-700 font-rale'>
           <a href="#"><p>Home</p></a>
