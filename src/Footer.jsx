@@ -8,21 +8,21 @@ const Footer = () => {
         <p className="text-lg font-rale sm:text-xl">Subscribe to get daily updates on news drops & exciting deals</p>
         <div>
           <form className="flex md:flex-row flex-col md:gap-x-4 gap-y-4 justify-start md:justify-center items-start md:items-center font-rale">
-            <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 pl-5 sm:pl-8 pr-16 py-1 sm:py-2 text-sm sm:text-lg"/>
+            <input type="email" placeholder="ENTER YOUR EMAIL" className="border-2 border-gray-500 md:pl-5 pl-8 pr-16 md:py-1 py-2 md:text-sm text-lg"/>
             <button type="submit" className="text-sm text-white bg-black px-2 py-1 border-2 border-black">SUBSCRIBE</button>
           </form>
         </div>
       </div>
 
-      <div className='flex flex-row justify-around items-center mx-20 mt-8'>
+      <div className='flex flex-col md:flex-row justify-around items-center mx-20 mt-8'>
         <h2 className="text-2xl font-bold font-bruno">ARTSY.</h2>
-        <div className='flex flex-col gap-y-4 text-gray-700 font-rale'>
+        <div className='hidden md:flex flex-col gap-y-4 text-gray-700 font-rale'>
           <a href="#"><p>Home</p></a>
           <a href="#"><p>Marketplace</p></a>
           <a href="#"><p>Auctions</p></a>
           <a href="#"><p>Drops</p></a>
         </div>
-        <div className='flex flex-col gap-y-4 text-gray-700 font-rale'>
+        <div className='hidden md:flex flex-col gap-y-4 text-gray-700 font-rale'>
           <a href="#"><p>Blog</p></a>
           <a href="#"><p>Wallets</p></a>
           <a href="#"><p>Rates</p></a>
