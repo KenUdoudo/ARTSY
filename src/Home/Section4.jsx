@@ -14,9 +14,9 @@ const Section4home = () => {
       <div className='flex flex-row justify-between mx-10 md:mx-20 pt-10 z-0'>
         <h2 className='font-bold text-lg sm:text-xl md:text-3xl font-bruno'>TOP CREATORS OF <br />THE WEEK</h2>
         <div className='flex flex-row gap-x-3'>
-          <img src={ loader2 } className='w-auto h-3/6'/>
+          <img src={ loader2 } className='w-auto h-2/6 md:h-3/6 '/>
           <div>
-            <ul className='flex flex-col gap-3 text-sm sm:text-base md:text-lg font-rale'>
+            <ul className='flex flex-col gap-2 md:gap-3 text-sm sm:text-base md:text-lg font-rale'>
               <a href="#"><li>Editorials</li></a>
               <a href="#"><li>Fashion</li></a>
               <a href="#"><li>Lifestyle</li></a>
