@@ -11,7 +11,7 @@ const NavBar = () => {
     
     <div>
       
-      <div className="static first:flex flex-row justify-between px-10 sm:px-20 mt-5 items-center ">
+      <div className="static first:flex flex-row justify-between px-10 sm:px-20 mt-5 items-center overflow-hidden ">
         <h3 className="text-2xl font-bold font-stix">ARTSY.</h3>
 
         <ul className="md:flex flex-row gap-x-5 font-rale hidden ">
@@ -20,7 +20,7 @@ const NavBar = () => {
           <li><Link to="/Auctions">Auctions</Link></li>
           <li><Link to='/Drops'>Drop</Link></li>
         </ul>
-        <ul className={`flex flex-col text-xl sm:text-2xl bg-white w-full pl-10 py-6 gap-y-5 font-rale md:hidden absolute z-10 top-20 left-0 overflow-hidden ${open ? 'left-0':'left-full' }`}>
+        <ul className={`flex flex-col text-xl sm:text-2xl bg-white w-full pl-10 py-6 gap-y-5 font-rale md:hidden absolute z-10 duration-75  ${open ? 'top-20':'-top-full' }`}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Marketplace">Marketplace</Link></li>
           <li><Link to="/Auctions">Auctions</Link></li>
