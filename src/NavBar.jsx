@@ -21,7 +21,7 @@ const NavBar = () => {
           <li><Link to="/Auctions">Auctions</Link></li>
           <li><Link to='/Drops'>Drop</Link></li>
         </ul>
-        <ul className={`flex flex-col text-xl sm:text-2xl bg-white w-full py-6 gap-y-5 font-rale md:hidden absolute z-10 duration-75 left-0 pl-10 sm:pl-20  ${open ? 'top-20':'-top-full' }`}>
+        <ul className={`flex flex-col text-xl sm:text-2xl bg-white w-full py-6 gap-y-5 font-rale md:hidden absolute z-10 tansition-all duration-100 left-0 pl-10 sm:pl-20  ${open ? 'top-20':'-top-full' }`}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Marketplace">Marketplace</Link></li>
           <li><Link to="/Auctions">Auctions</Link></li>
