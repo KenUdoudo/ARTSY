@@ -31,8 +31,11 @@ const NavBar = () => {
         <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
         <a href="#"><img src= { Bell } className="w-9 h-10"/></a>
         </div>
-        <div onClick={()=>setOpen(!open)} className="md:hidden" >
-        <img src={ hamburger } />
+        <div>
+          <div onClick={()=>setOpen(!open)} className="md:hidden" >
+              <img src={ hamburger } />
+          </div>
+          <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
         </div>
       </div>
       
