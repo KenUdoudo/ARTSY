@@ -1,10 +1,11 @@
+import { useState } from "react"
 import Cart from "./assets/Home/Vectorcart.png"
 import Bell from "./assets/Home/Notification iconbell.png"
 import search from './assets/Home/Search icon.png'
 import hamburger from './assets/Home/Frame 38hamburger.png'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
-
+  let [open,setOpen]=useState(false);
 
   return (
     
@@ -19,7 +20,7 @@ const NavBar = () => {
           <li><Link to="/Auctions">Auctions</Link></li>
           <li><Link to='/Drops'>Drop</Link></li>
         </ul>
-        <ul className="flex flex-col text-xl sm:text-2xl bg-white w-full pl-10 py-6 gap-y-5 font-rale md:hidden absolute z-10 top-20 left-0 overflow-hidden">
+        <ul className={`flex flex-col text-xl sm:text-2xl bg-white w-full pl-10 py-6 gap-y-5 font-rale md:hidden absolute z-10 top-20 left-0 overflow-hidden ${open ? 'left-0':'left-full' }`}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Marketplace">Marketplace</Link></li>
           <li><Link to="/Auctions">Auctions</Link></li>
@@ -30,7 +31,9 @@ const NavBar = () => {
         <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
         <a href="#"><img src= { Bell } className="w-9 h-10"/></a>
         </div>
-        <img src={ hamburger } className="md:hidden"/>
+        <div onClick={()=>setOpen(!open)} className="md:hidden" >
+        <img src={ hamburger } />
+        </div>
       </div>
       
     </div>
