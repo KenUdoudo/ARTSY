@@ -31,8 +31,8 @@ const NavBar = () => {
         <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
         <a href="#"><img src= { Bell } className="w-9 h-10"/></a>
         </div>
-        <div>
-          <div onClick={()=>setOpen(!open)} className="md:hidden" >
+        <div className="md:hidden flex flex-row gap-x-1 items-center" >
+          <div onClick={()=>setOpen(!open)} >
               <img src={ hamburger } />
           </div>
           <a href="#"><img src={ Cart } className="w-6 h-6"/></a>
