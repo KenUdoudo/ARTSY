@@ -3,6 +3,7 @@ import Cart from "./assets/Home/Vectorcart.png"
 import Bell from "./assets/Home/Notification iconbell.png"
 import search from './assets/Home/Search icon.png'
 import hamburger from './assets/Home/Frame 38hamburger.png'
+import liveChat from './assets/Home/Group 512live chat.png'
 import { Link } from 'react-router-dom'
 const NavBar = () => {
   let [open,setOpen]=useState(false);
@@ -25,6 +26,7 @@ const NavBar = () => {
           <li><Link to="/Marketplace">Marketplace</Link></li>
           <li><Link to="/Auctions">Auctions</Link></li>
           <li><Link to='/Drops'>Drop</Link></li>
+          <img src={ liveChat } className="w-1/6"/>
         </ul>
        <div className="md:flex flex-row gap-x-5 items-center hidden">
         <img src={ search } className="w-10 h-10"/>
