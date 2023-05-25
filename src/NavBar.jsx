@@ -19,7 +19,7 @@ const NavBar = () => {
           <li><Link to="/Auctions">Auctions</Link></li>
           <li><Link to='/Drops'>Drop</Link></li>
         </ul>
-        <ul className="flex flex-row gap-x-5 font-rale md:hidden absolute z-10">
+        <ul className="flex flex-col gap-y-5 font-rale md:hidden absolute z-10 top-20">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Marketplace">Marketplace</Link></li>
           <li><Link to="/Auctions">Auctions</Link></li>
