@@ -9,7 +9,7 @@ const Section1auction = () => {
       <div className='flex flex-col md:flex-row justify-center items-center mt-10'>
         <a href="#">
         <div className='static flex hover:shadow-2xl w-full'>
-        <p className='absolute z-10 border-0 rounded bg-slate-700 bg-opacity-25 text-white text-2xl mt-36 sm:mt-60 ml-10 sm:ml-20 px-4 py-1'>6hrs: 40mins: 15s</p>
+        <p className='absolute z-10 border-0 rounded bg-slate-700 bg-opacity-25 text-white text-2xl mt-36 sm:mt-60 md:mt-28 ml-10 sm:ml-20 md:ml-5 px-4 py-1 md:text-lg'>6hrs: 40mins: 15s</p>
           <img src={ one }/>
         </div>
         </a>
