@@ -5,7 +5,7 @@ const Section2auction = () => {
     <div className="mx-10 md:mx-20 font-rale">
       <p className="mt-10 md:mt-20 font-semibold">Top bids from popular creators</p>
 
-      <div className='flex flex-col md:flex-row gap-x-10 mt-10'>
+      <div className='flex flex-col md:flex-row md:gap-x-10 gap-y-10 mt-10'>
         <div className='flex flex-col gap-y-4'>
           <img src={ out } />
           <p className='text-gray-600 font-semibold text-lg'>Creator: <span className='text-black'>Dan Murray</span></p>
