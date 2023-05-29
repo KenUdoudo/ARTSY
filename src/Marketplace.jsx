@@ -1,7 +1,8 @@
+import NavBar from "./NavBar";
 const Marketplace = () => {
   return (
     <div>
-      <h2>market</h2>
+      <NavBar />
 
     </div>
   );
