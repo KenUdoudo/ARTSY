@@ -5,7 +5,7 @@ const Section1market = () => {
       <input type="search" placeholder="Search" className="bg-gray-300 pl-5 w-1/5"/>
       <div className='w-3/5 flex flex-row justify-between items-center'>
         <p>See 1-6 of 16 results</p>
-        <div>
+        <div className='flex flex-row items-center'>
           <p>Sort By</p>
           <img src={ downArrow }/>
         </div>
