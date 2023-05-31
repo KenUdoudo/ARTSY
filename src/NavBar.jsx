@@ -12,7 +12,7 @@ const NavBar = () => {
     
     <div>
       
-      <div className="static first:flex flex-row justify-between px-10 sm:px-20 mt-5 items-center overflow-hidden ">
+      <div className="static first:flex flex-row justify-between px-10 sm:px-20 mt-5 items-center overflow-hidden bg-white">
         <h3 className="text-2xl font-bold font-stix">ARTSY.</h3>
 
         <ul className="md:flex flex-row gap-x-5 font-rale hidden ">
