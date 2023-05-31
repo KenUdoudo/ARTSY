@@ -12,7 +12,7 @@ const Section2market = () => {
         <div>
           <div className='flex flex-row justify-between items-center'>
             <p>By Category</p>
-            <img src={ down }/>
+            <img src={ down } className='w-7'/>
           </div>
         </div>
 
