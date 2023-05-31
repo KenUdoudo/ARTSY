@@ -14,6 +14,7 @@ const Section2market = () => {
             <p>By Category</p>
             <img src={ down } className='w-7'/>
           </div>
+          <input type="checkbox" id='edit'/> Editorials
         </div>
 
 
