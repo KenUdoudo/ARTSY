@@ -14,12 +14,12 @@ const Section2market = () => {
             <p>By Category</p>
             <img src={ down } className='w-7'/>
           </div>
-          <div>
-          <input type="checkbox" id='edit'/> Editorials
-          <input type="checkbox" id='fashion'/> Fashion
-          <input type="checkbox" id='optics'/> Optics
-          <input type="checkbox" id='art'/> Art & Museum
-          <input type="checkbox" id='nature'/> Nature
+          <div className='flex flex-col'>
+          <p><input type="checkbox" id='edit'/> Editorials</p>
+          <p><input type="checkbox" id='fashion'/> Fashion</p>
+          <p><input type="checkbox" id='optics'/> Optics</p>
+          <p><input type="checkbox" id='art'/> Art & Museum</p>
+          <p><input type="checkbox" id='nature'/> Nature</p>
           </div>
         </div>
 
