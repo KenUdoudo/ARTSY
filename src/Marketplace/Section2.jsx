@@ -23,7 +23,16 @@ const Section2market = () => {
           </div>
         </div>
 
-
+        <div className='mt-5'>
+          <div className='flex flex-row justify-between items-center'>
+            <p className='font-bold'>By price</p>
+            <img src={ down } className='w-7'/>
+          </div>
+          <div className='flex flex-col mt-4 gap-y-6'>
+            <p>$100.00 - $150.00</p>
+            <input type="range"/>
+          </div>
+        </div>
 
       </div>
 
