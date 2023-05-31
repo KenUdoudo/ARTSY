@@ -1,4 +1,5 @@
 import filter from './assets/Frame 34.png'
+import down from './assets/Frame 6.png'
 const Section2market = () => {
   return (  
     <div className='mx-10 mt-5'>
@@ -7,6 +8,16 @@ const Section2market = () => {
           <img src={ filter } className='w-10'/>
           <p>Filter</p>
         </div>
+
+        <div>
+          <div>
+            <p>By Category</p>
+            <img src={ down }/>
+          </div>
+        </div>
+
+
+
       </div>
 
 
