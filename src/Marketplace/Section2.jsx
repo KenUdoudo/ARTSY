@@ -6,15 +6,15 @@ const Section2market = () => {
       <div className='flex flex-col w-1/6 '>
         <div className='flex flex-row border-black border-b-2 justify-start items-center'>
           <img src={ filter } className='w-10'/>
-          <p>Filter</p>
+          <p className='font-bold'>Filter</p>
         </div>
 
-        <div>
+        <div className='mt-5'>
           <div className='flex flex-row justify-between items-center'>
-            <p>By Category</p>
+            <p className='font-bold'>By Category</p>
             <img src={ down } className='w-7'/>
           </div>
-          <div className='flex flex-col'>
+          <div className='flex flex-col mt-4'>
           <p><input type="checkbox" id='edit'/> Editorials</p>
           <p><input type="checkbox" id='fashion'/> Fashion</p>
           <p><input type="checkbox" id='optics'/> Optics</p>
