@@ -1,6 +1,14 @@
 import filter from './assets/Frame 34.png'
 import down from './assets/Frame 6.png'
 import first from './assets/Rectangle 251.png'
+import second from './assets/Rectangle 299.png'
+import third from './assets/Rectangle 49.png'
+import fourth from './assets/Rectangle 53.png'
+import fifth from './assets/Rectangle 54(1).png'
+import sixth from './assets/Rectangle 50.png'
+import seventh from './assets/Rectangle 48.png'
+import eigth from './assets/Rectangle 52.png'
+import ninth from './assets/Rectangle 55(1).png'
 
 
 
