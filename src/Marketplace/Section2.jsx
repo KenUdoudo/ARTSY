@@ -34,6 +34,19 @@ const Section2market = () => {
           </div>
         </div>
 
+        <div className='mt-5'>
+          <div className='flex flex-row justify-between items-center'>
+            <p className='font-bold'>By artist</p>
+            <img src={ down } className='w-7'/>
+          </div>
+          <div className='flex flex-col mt-4 gap-y-2'>
+           <p>All</p>
+           <p>Below $100.00</p>
+           <p>$100.00 - $149.00</p>
+           <p>$150.00 - $200.00</p>
+           <p>Above $200.00</p>
+          </div>
+        </div>
       </div>
 
 
