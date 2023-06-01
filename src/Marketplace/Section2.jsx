@@ -6,7 +6,7 @@ import first from './assets/Rectangle 251.png'
 
 const Section2market = () => {
   return (  
-    <div className='mx-10 mt-5 flex flex-row'>
+    <div className='mx-10 mt-5 flex flex-row gap-x-6'>
       <div className='flex flex-col w-1/6 '>
         <div className='flex flex-row border-black border-b-2 justify-start items-center'>
           <img src={ filter } className='w-10'/>
