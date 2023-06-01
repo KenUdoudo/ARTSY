@@ -52,11 +52,11 @@ const Section2market = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-row mt-5'>
+      <div className='flex flex-row mt-7'>
         <div>
           <img src={ first } className='w-40'/>
-          <p>PHILOMENA '22</p>
-          <h3>$3.90</h3>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
 
 
