@@ -7,7 +7,7 @@ import fourth from './assets/Rectangle 53.png'
 import fifth from './assets/Rectangle 54(1).png'
 import sixth from './assets/Rectangle 50.png'
 import seventh from './assets/Rectangle 48.png'
-import eigth from './assets/Rectangle 52.png'
+import eight from './assets/Rectangle 52.png'
 import ninth from './assets/Rectangle 55(1).png'
 
 
@@ -66,9 +66,46 @@ const Section2market = () => {
           <p className='text-sm mt-2'>PHILOMENA '22</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
-
-
-
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ second } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ third } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ fourth } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ fifth } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ sixth } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ seventh } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ eight } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
+        <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <img src={ ninth } className='w-40'/>
+          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+        </div>
       </div>
 
 
