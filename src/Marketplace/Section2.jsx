@@ -1,5 +1,9 @@
 import filter from './assets/Frame 34.png'
 import down from './assets/Frame 6.png'
+import first from './assets/Rectangle 251.png'
+
+
+
 const Section2market = () => {
   return (  
     <div className='mx-10 mt-5'>
@@ -48,7 +52,14 @@ const Section2market = () => {
           </div>
         </div>
       </div>
+      <div>
+        <div>
 
+        </div>
+
+
+
+      </div>
 
 
 
