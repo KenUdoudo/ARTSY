@@ -60,7 +60,7 @@ const Section2market = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-row mt-7 justify-around items-start'>
+      <div className='flex flex-row flex-wrap mt-7 justify-around items-start'>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ first } className='w-40'/>
           <p className='text-sm mt-2'>PHILOMENA '22</p>
