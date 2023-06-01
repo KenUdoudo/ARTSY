@@ -52,7 +52,7 @@ const Section2market = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='flex flex-row'>
         <div>
           <img src={ first }/>
           <p>PHILOMENA '22</p>
