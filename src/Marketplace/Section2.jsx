@@ -68,42 +68,42 @@ const Section2market = () => {
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ second } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>BOOLEAN EGYPTIAN</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ third } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>BLANC</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ fourth } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>ELLIPSIA</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ fifth } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>THE LAWMAKERS</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ sixth } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>VEIL</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ seventh } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>ALTERNATING</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ eight } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>ROSEMARY '22</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ ninth } className='w-40'/>
-          <p className='text-sm mt-2'>PHILOMENA '22</p>
+          <p className='text-sm mt-2'>BEVERLY</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
         </div>
       </div>
