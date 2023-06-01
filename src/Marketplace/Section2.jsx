@@ -4,11 +4,11 @@ import first from './assets/Rectangle 251.png'
 import second from './assets/Rectangle 299.png'
 import third from './assets/Rectangle 49.png'
 import fourth from './assets/Rectangle 53.png'
-import fifth from './assets/Rectangle 54(1).png'
+import fifth from './assets/Rectangle 54 (1).png'
 import sixth from './assets/Rectangle 50.png'
 import seventh from './assets/Rectangle 48.png'
 import eight from './assets/Rectangle 52.png'
-import ninth from './assets/Rectangle 55(1).png'
+import ninth from './assets/Rectangle 55 (1).png'
 
 
 
@@ -60,7 +60,7 @@ const Section2market = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-row flex-wrap mt-7 justify-around items-start'>
+      <div className='grid grid-cols-3 mt-7 mx-40 gap-14 justify-center items-center'>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ first } className='w-40'/>
           <p className='text-sm mt-2'>PHILOMENA '22</p>
