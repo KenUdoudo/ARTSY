@@ -23,7 +23,16 @@ const Section1market = () => {
           </ul>
         </div>
       </button>
-
+      <button className='relative md:hidden group text-lg sm:text-xl border rounded border-black px-4 py-1'>
+        <p>Sort by</p>
+        <div className='absolute hidden top-full min-full w-max bg-white shadow-md mt-1 rounded group-focus:block'>
+          <ul className='text-left border rounded'>
+            <li className='px-4 py-1 border-b'>Name</li>
+            <li className='px-4 py-1 border-b'>Price</li>
+            <li className='px-4 py-1 border-b'>Artist</li>
+          </ul>
+        </div>
+      </button>
 
     </div>
    );
