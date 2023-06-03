@@ -11,15 +11,15 @@ const Section1market = () => {
         </div>
       </div>
 
-      <button className='md:hidden'>
+      <button className='relative md:hidden'>
         <p>Filter</p>
         <div className='absolute hidden top-full min-full w-max bg-white shadow-md mt-1 rounded'>
-          <ul>
-            <li>Editorials</li>
-            <li>Fashion</li>
-            <li>Optics</li>
-            <li>Art & Museum</li>
-            <li>Nature</li>
+          <ul className='text-left border rounded'>
+            <li className='px-4 py-1 border-b'>Editorials</li>
+            <li className='px-4 py-1 border-b'>Fashion</li>
+            <li className='px-4 py-1 border-b'>Optics</li>
+            <li className='px-4 py-1 border-b'>Art & Museum</li>
+            <li className='px-4 py-1 border-b'>Nature</li>
           </ul>
         </div>
       </button>
