@@ -14,8 +14,8 @@ import ninth from './assets/Rectangle 55 (1).png'
 
 const Section2market = () => {
   return (  
-    <div className='mx-10 mt-5 flex flex-row gap-x-6'>
-      <div className='flex flex-col w-1/6 '>
+    <div className='mx-10 mt-5 flex flex-row gap-x-0 md:gap-x-6'>
+      <div className='hidden md:flex flex-col w-1/6 '>
         <div className='flex flex-row border-black border-b-2 justify-start items-center'>
           <img src={ filter } className='w-10'/>
           <p className='font-bold'>Filter</p>
@@ -60,7 +60,7 @@ const Section2market = () => {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-3 mt-7 md:mx-20 lg:mx-40 md:gap-7 lg:gap-14 justify-center items-center'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 mt-7 md:mx-20 lg:mx-40 md:gap-7 lg:gap-14 justify-center items-center'>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ first } className='w-40'/>
           <p className='text-sm mt-2'>PHILOMENA '22</p>
