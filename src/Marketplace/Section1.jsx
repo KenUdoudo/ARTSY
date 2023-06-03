@@ -11,8 +11,8 @@ const Section1market = () => {
         </div>
       </div>
 
-      <button className='relative md:hidden group text-lg sm:text-xl'>
-        <p>Filter</p>
+      <button className='relative md:hidden group text-lg sm:text-xl border rounded border-black px-4 py-1'>
+        <p>Filter by</p>
         <div className='absolute hidden top-full min-full w-max bg-white shadow-md mt-1 rounded group-focus:block'>
           <ul className='text-left border rounded'>
             <li className='px-4 py-1 border-b'>Editorials</li>
