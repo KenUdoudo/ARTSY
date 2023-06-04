@@ -5,7 +5,7 @@ import Drops from './Drops'
 import Home from './Home'
 import Auction from './Auction'
 import Marketplace from './Marketplace'
-
+import Philomena from './Marketplace/Philomena'
 function App() {
   
   return (
@@ -19,7 +19,7 @@ function App() {
       <Route exact path="/Marketplace" element={ <Marketplace /> }/>
       <Route exact path="/Auctions" element={ <Auction /> }/>
       <Route exact path="/Drops" element={ <Drops /> }/>
-
+      <Route exact path="/Philomena" element={ <Philomena /> }/>
      </Routes>
     </div>
     
