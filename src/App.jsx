@@ -5,7 +5,7 @@ import Drops from './Drops'
 import Home from './Home'
 import Auction from './Auction'
 import Marketplace from './Marketplace'
-import Philomena from './Marketplace/Philomena'
+import Philomena from './Philomena'
 function App() {
   
   return (
