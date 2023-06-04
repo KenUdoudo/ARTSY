@@ -9,7 +9,7 @@ import sixth from './assets/Rectangle 50.png'
 import seventh from './assets/Rectangle 48.png'
 import eight from './assets/Rectangle 52.png'
 import ninth from './assets/Rectangle 55 (1).png'
-
+import { Link } from 'react-router-dom'
 
 
 const Section2market = () => {
@@ -62,9 +62,11 @@ const Section2market = () => {
       </div>
       <div className='grid grid-cols-2 sm:grid-cols-3 mt-7 md:mx-20 lg:mx-40 md:gap-7 lg:gap-14 justify-center items-center'>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
+          <Link to="/Philomena">
           <img src={ first } className='w-40'/>
           <p className='text-sm mt-2'>PHILOMENA '22</p>
           <h3 className='text-lg font-bold mt-5'>$3.90</h3>
+          </Link>
         </div>
         <div className='rounded border-0 shadow-2xl px-2 py-1'>
           <img src={ second } className='w-40'/>
