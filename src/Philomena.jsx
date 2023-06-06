@@ -8,6 +8,10 @@ const Philomena = () => {
 
       <div>
         <img src={ first }/>
+        <div>
+          <p>Philomena</p>
+          <p>$3.90</p>
+        </div>
       </div>
       
     </div>
