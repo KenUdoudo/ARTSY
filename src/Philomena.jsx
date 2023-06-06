@@ -8,7 +8,7 @@ const Philomena = () => {
 
       <div className="flex flex-col justify-center items-center mt-20">
         <img src={ first }/>
-        <div>
+        <div className="flex flex-row justify-center items-center gap-x-10">
           <p>Philomena</p>
           <p>$3.90</p>
         </div>
