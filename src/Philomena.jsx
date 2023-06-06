@@ -6,7 +6,7 @@ const Philomena = () => {
     <div>
       <NavBar />
 
-      <div>
+      <div className="flex flex-col justify-center items-center mt-20">
         <img src={ first }/>
         <div>
           <p>Philomena</p>
