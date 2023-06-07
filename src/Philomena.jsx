@@ -16,7 +16,7 @@ const Philomena = () => {
         <p className="items-start">Creator</p>
         <p>Made in italy</p>
         <p>Total views: 1.7k views</p>
-        <div className="flex flex-row gap-x-4">
+        <div className="flex flex-row gap-x-4 text-2xl">
           <button>-</button>
           <p>0</p>
           <button>+</button>
