@@ -21,6 +21,7 @@ const Philomena = () => {
           <p>0</p>
           <button>+</button>
         </div>
+        <button className="bg-purple">Add to Cart</button>
       </div>
       
     </div>
