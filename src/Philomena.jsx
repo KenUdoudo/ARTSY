@@ -6,7 +6,7 @@ const Philomena = () => {
     <div>
       <NavBar />
 
-      <div className="flex flex-col justify-center items-center mt-20 border border-black mx-20 py-10">
+      <div className="flex flex-col justify-center items-start mt-20 border border-black mx-20 px-10 py-10">
         <div className="flex flex-col justify-center items-center">
         <img src={ first }/>
         <div className="flex flex-row justify-center items-center gap-x-10 mt-5">
