@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import first from './Marketplace/assets/Rectangle 251.png'
-import downArrow from './assets/Frame 5.png'
+import downArrow from './Marketplace/assets/Frame 5.png'
 const Philomena = () => {
   return (
     <div>
@@ -28,6 +28,7 @@ const Philomena = () => {
         </div>
         <div>
           <p>Description</p>
+          <img src={ downArrow }/>
         </div>
       </div>
       
