@@ -26,8 +26,8 @@ const Philomena = () => {
           </div>
           <button className="bg-blue-900 text-white text-lg px-4 py-2">Add to Cart</button>
         </div>
-        <div>
-          <p>Description</p>
+        <div className="flex flex-row justify-between items-center gap-x-28">
+          <p className="text-xl">Description</p>
           <img src={ downArrow }/>
         </div>
       </div>
